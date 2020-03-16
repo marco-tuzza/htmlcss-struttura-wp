@@ -51,11 +51,11 @@ nav {
     background-color: #666666;
 }
 
-ul {
+nav ul {
     text-align: center;
 }
 
-ul li {
+nav ul li {
     font-size: 13px;
     display: inline;
     color: white;
@@ -73,11 +73,7 @@ main div {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
-}
-
-#testo {
-    display: inline-block;
-    width: 50%;
+    font-weight: bold;
 }
 
 #link {
@@ -87,15 +83,61 @@ main div {
 
 }
 
-.widget {
-    display:inline-block;
-    float: right;
-    width: 20%;
+#link h3 {
+    color: #5c544e;
+    margin-bottom: 5px;
+    font-size: 25px;
+    margin-left: 22px;
+}
+
+#link img {
+    float: left;
+    width: 15px;
+    margin-right: 3px;
+    margin-top: 3px;
+
 }
 
 #testo h3 {
     margin-bottom: 30px;
     color: #5c544e
+}
+
+main ul {
+    list-style: none;
+}
+main ul li {
+    padding-bottom: 15px;
+}
+
+ul li a {
+    padding-bottom: 30px;
+    color: green;
+    text-decoration: none;
+}
+
+#testo {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 205px;
+}
+
+#destro {
+    float: right;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+#destro h3 {
+    margin-bottom: 30px;
+    color: #5c544e
+}
+
+.widget {
+    float: right;
+    width: 20%;
+    margin-bottom: 30px;
+    margin-left: 31%;
 }
 
 .widget h3 {
