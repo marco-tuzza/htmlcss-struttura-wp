@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url("img/sfondo.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 350px;
+    background-image: url("img/copertina.jpg");
+    background-size: cover;
+    border: 7px solid white;
+}
+
+.menu {
+    width: 100%;
+    height: 40px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 9px;
+    background-color: #666666;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: #FCFCFC;
+    padding: 5px;
+    list-style-type: none;
+}
