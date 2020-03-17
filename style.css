@@ -151,8 +151,8 @@ ul li a {
 /* footer */
 footer {
     background-color: white;
-    margin-top: 30px;
     width: 1000px;
+    height: 175px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -170,8 +170,9 @@ footer p {
 footer img {
     height: 60px;
     width: 60px;
-    margin-left: 206px;
+    float: left;
+    margin: 13%;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;;
 }
 /* /footer */
